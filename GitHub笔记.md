@@ -54,9 +54,9 @@ master 主分支/文件库
 #### 版本冲突处理
 
 fetch
-1.远程取到更新
-2.对比一下不同
-3.执行合并，或修改
+1. 远程取到更新
+2. 对比一下不同
+3. 执行合并，或修改
 
 	git fetch origin master    #从远程master分支获取更新
 	git diff master origin/master    #对主分支和远程分支进行比对
