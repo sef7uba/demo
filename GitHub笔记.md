@@ -21,11 +21,11 @@ GitHub笔记
 
 	vim README.md
 	git add README.md    #加入
-	git commit -m "注释"    #提交到仓库
+	git commit -m "注释"    #为本地创建了一次commit
 	git push origin master    #上传到创库
 	git log    #查看日志，可查看做了什么修改
 	git status    #查看状态
-	git commit -a -m "注释"    #简化
+	git commit -a -m "注释"    #简化 相当于git add + git commit -m
 
 
 
